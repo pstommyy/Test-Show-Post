@@ -1,0 +1,29 @@
+@import '../../_color.scss';
+
+.navTopBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    height: 100%;
+    background: $BG2;
+    border-bottom: solid 0.125rem $white;
+
+    .leftSide {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .leftSideImg {
+        width: 40px;
+        height: 40px;
+    }
+    .leftSideText {
+        color: $white;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+
+
