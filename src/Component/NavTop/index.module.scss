@@ -7,7 +7,7 @@
     padding: 0 15px;
     height: 100%;
     background: $BG2;
-    border-bottom: solid 0.125rem $white;
+    box-shadow: 0px 3px 5px rgba(176, 190, 197, 0.32), 0px 8px 24px rgba(176, 190, 197, 0.32);
 
     .leftSide {
         display: flex;
