@@ -10,7 +10,6 @@ const App: React.FC = (): JSX.Element => {
       <nav>
         <NavTop />
       </nav>
-      
       <div className={styles.showPostBox}>
           <ShowPost />
       </div>
